@@ -4,3 +4,29 @@ type ExampleEntity @entity {
   provider: Bytes! # address
   title: Bytes! # bytes32
 }
+
+type Provider @entity {
+id: ID!
+
+}
+
+type Curve @entity { 
+id: ID!
+
+
+}
+
+type Transaction @entity {
+id: ID!
+
+}
+
+type Bond @entity {
+}
+
+type Unbond @entity {
+}
+
+type Title @entity { 
+
+}
